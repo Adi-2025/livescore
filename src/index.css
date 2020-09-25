@@ -1,13 +1,34 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'muli' , sans-serif;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+ 
+ background-image: url("../src/Images/cri2.jfif");
+
 }
+
+.card{
+  background-color: rgba(0,0,0,0.5);
+box-shadow: 0 4px 8px 0 rgba(0,0,0,1.5);
+  transition: 0.3s;
+  border-radius: 25px;
+perspective: 1000px;
+}
+
+
+.card-title{
+  font-size:21px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
